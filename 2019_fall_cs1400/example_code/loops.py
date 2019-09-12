@@ -1,4 +1,7 @@
-import math
+# import math
+# import math as m
+from math import *
+
 
 def main():
     for x in range(1,11,2):
@@ -12,6 +15,9 @@ def main():
     while x != 10:
         print(x)
         x += 1
+        
+        if x == 10:
+            pass
         
         #if x == 10:
         #    x += 1
@@ -39,7 +45,7 @@ def main():
         print('%-3d|%10d|%10d' % (foo, 10**foo, foo*2))
         
     for x in range(10):
-        val = x * math.pi
+        val = x * pi
         print('your salary is $%0.2f' % val)
         
     x = float(input('enter some int: '))
