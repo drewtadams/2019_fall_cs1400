@@ -48,7 +48,6 @@ def draw_squares(num_rows=3, num_cols=3):
             forward(25)
 
 
-
 # draws a triangle
 def draw_triangle(side_len=50):
     # set the colors and start the fill
