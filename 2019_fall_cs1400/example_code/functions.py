@@ -1,6 +1,10 @@
 import random
 
 
+def get_age_input():
+    return int(input('How old are you in digits? '))
+    
+
 def get_rando_number_list(num_iterations):
     ret_list = []
     for x in range(0,num_iterations):
@@ -34,9 +38,9 @@ def main():
     
 #    print(sum_list(get_list()))
 #    print(sum_list(y))
-    print(get_num_dictionary(3))
+#    print(get_num_dictionary(3))
+    print(get_age_input())
     
-
 
 if __name__ == '__main__':
     main()
